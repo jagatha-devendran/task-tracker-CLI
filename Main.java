@@ -8,22 +8,22 @@ class Main {
         try (TaskTracker taskTracker = new TaskTracker()) {
             switch (operation) {
                 case "add":
-                    taskTracker.addTask(toDescription(1, args));
+                    taskTracker.addTask(args[1]);
                     break;
                 case "update":
                     id = Integer.parseInt(args[1]);
-                    taskTracker.updateTask(id, toDescription(2, args));
+                    taskTracker.updateTask(id, args[2]);
                     break;
                 case "delete":
                     id = Integer.parseInt(args[1]);
                     taskTracker.deleteTask(id);
                     break;
                 case "mark-in-progress":
-                    id = Integer.parseInt(args[2]);
+                    id = Integer.parseInt(args[1]);
                     taskTracker.markInProgress(id);
                     break;
                 case "mark-done":
-                    id = Integer.parseInt(args[2]);
+                    id = Integer.parseInt(args[1]);
                     taskTracker.markDone(id);
                     break;
                 case "list":
@@ -39,16 +39,8 @@ class Main {
                     break;
             }
         } catch (Exception e) {
-            System.out.println("Error");
+            e.printStackTrace();
         }
-    }
-
-    public static String toDescription(int start, String[] args) {
-        String description = "";
-        for (int i = start; i < args.length; i++) {
-            description += args[i];
-        }
-        return description;
     }
 }
 
