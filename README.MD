@@ -1,8 +1,4 @@
-Nice project, Jagatha! 🎉 That’s a clean CLI tool — perfect for a GitHub showcase.
 
-Here’s a **ready-to-use `README.md`** for your Java Task CLI project using Gson:
-
----
 
 ## 📝 Task CLI – Java Command Line Task Manager
 
@@ -256,9 +252,4 @@ Task marked as done
 * Export tasks to CSV
 * Add undo feature
 
----
-
-If you want, I can:
-
-* Customize this with your **GitHub username/repo name**, or
-* Make it shorter/crisper for resumes or Zoho submissions 😊
+- - - 
