@@ -4,6 +4,14 @@ A professional-grade, lightweight command-line utility built in Java for efficie
 
 ---
 
+## 📖 About
+
+**Task Tracker CLI** is a terminal-based productivity tool that helps developers and CLI enthusiasts manage their daily tasks without leaving the command line. Built with a focus on simplicity, portability, and professional standards, it serves as a robust alternative to local text-file tracking.
+
+Whether you're managing a complex project or a simple to-do list, Task Tracker provides the structural integrity of a database-backed application with the speed of a shell command.
+
+---
+
 ## ✨ Features
 
 - **Native CLI Feel** → Run `task-tracker` globally from any directory.
@@ -102,4 +110,4 @@ task-tracker list done      # Filter by done
 ---
 
 ## 📜 License
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the **[MIT License](LICENSE)**.
