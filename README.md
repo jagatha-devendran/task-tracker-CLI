@@ -39,7 +39,7 @@ Unlike basic CLI tools that create files in the current directory, this tool adh
 Clone the repository and run the automated installation script:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/jagatha-devendran/task-tracker-CLI.git
 cd task-tracker-CLI
 ./install.sh
 ```
