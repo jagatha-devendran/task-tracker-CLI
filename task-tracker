@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Get the physical directory where the script is located, even if called via a symlink
+SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
+INSTALL_DIR="$( cd "$( dirname "$SCRIPT_PATH" )" && pwd )"
+
+# Run the Java application
+java -cp "$INSTALL_DIR:$INSTALL_DIR/gson.jar" Main "$@"
